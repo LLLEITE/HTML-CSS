@@ -1,0 +1,141 @@
+@charset "UTF-8";
+#color_black {
+  background-color: #111;
+  height: 30px;
+}
+.active {
+    background-color: #B71C1C;
+}
+.h_menu {
+  position: fixed;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #B71C1C;
+  font-size: 20px;
+  top: 0px;
+  width: 100%;
+}
+.v_menu {
+  float: left;
+  list-style-type: none;
+  margin-top: 50px;
+  padding: 0;
+  overflow: visible;
+  background-color: #444;
+  font-size: 20px;
+  width: auto;
+}
+.li_hmenu {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+}
+.li_vmenu {
+  display: block;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+}
+.div_text{
+  margin: 80px auto;
+  width: 50%;
+  background-color: white;
+}
+.portrait {
+  width: 250px;
+  display: inline-block;
+  border-radius: 5px;
+  margin: 80px 20px 0px 50px;
+  opacity: 0.1;
+}
+.portrait:hover {
+  width: 255px;
+  transition: 0.3s;
+  opacity: 1;
+}
+.text_container {
+  text-align: center;
+}
+.text_container:hover {
+  color: white;
+}
+a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #000;
+}
+.a_anchor{
+  display: inline-block;
+  color: black;
+  text-align: none;
+  padding: 0;
+  text-decoration: underline;
+  font-size: 25px;
+  margin-left: 55px;
+}
+.a_anchor:hover{
+  color: #B71C1C;
+}
+
+.img_title {
+  margin: 0px;
+}
+p {
+  padding: 0px 10px 0px 10px;
+  text-align: justify;
+}
+hr {
+  border: 2px solid;
+}
+select {
+  font-size: 15px;
+}
+option {
+  font-style: italic;
+}
+body  {
+    /*background-image: url("imagens/background.jpg");*/
+    background-color: #000;
+}
+legend, label {
+  color: white;
+}
+table {
+  width: 95%;
+  border-collapse: collapse;
+  margin-left: 15px;
+}
+table, td {
+  border-bottom: 1px solid #ddd;
+}
+th, td {
+  height: 50px;
+}
+th {
+  font-size: 20px;
+  font-variant: small-caps;
+  text-align: left;
+}
+h1 {
+  text-align: center;
+}
+h2, h3 {
+  text-indent: 10px;
+}
+h1, h2, h3 {
+  font-variant: small-caps;
+}
+strong {
+  color: red;
+}
+iframe {
+  margin-left: 50px;
+}
