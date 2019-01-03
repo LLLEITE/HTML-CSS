@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+h1 {
+  background-color: #D1C4E9;
+  /* Margem exterior da box model*/
+  margin-right: 100px;
+  margin-left: 100px;
+
+  /* Margem interior*/
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  /*Alinhamento central do texto*/
+  text-align: center;
+}
+
+h2 {
+  background-color: #B39DDB;
+}
+
+h3 {
+  background-color: #9575CD;
+}
+
+h4 {
+  background-color: #7E57C2;
+}
+
+h5 {
+  background-color: #673AB7;
+}
+
+h6 {
+  background-color: #5E35B1;
+}
+
+p {
+  background-color: #BDBDBD;
+  text-align: justify;
+  /*Indentação do parágrafo*/
+  text-indent: 50px;
+}
+
+body {
+  background-color: #EDE7F6;
+}

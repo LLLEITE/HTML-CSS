@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head lang="pt-br">
+    <meta charset="utf-8">
+    <title>Contato</title>
+    <style>
+      form {
+        background-color: #E0E0E0;
+        width: 100%;
+        min-height: 150px;
+        padding-left: 30px;
+      }
+
+      textarea {
+        resize: none;
+        width: 300px;
+        height: 100px;
+      }
+
+      .button{
+        background-color: #00BCD4;
+        font-variant: small-caps;
+        height: 30px;
+        width: 60px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1>Formulário de contato</h1>
+    <form>
+      <fieldset>
+        <legend>Dados Pessoais</legend>
+        <div>
+          <label>
+            <input type="text" placeholder="Nome" autofocus maxlength="30">*
+            <input type="text" placeholder="Sobrenome">*
+          </label>
+        </div>
+        <div>
+          <input type="number" placeholder="Telefone">
+        </div>
+        <div>
+          <select name="" id="">
+            <option value="">Estado Civil</option>
+            <option value="Solteiro">Solteiro</option>
+            <option value="Casado">Casado</option>
+            <option value="Divorciado">Divorciado</option>
+          </select>
+        </div>
+        <div>
+          <label>Sexo</label>
+          <label> <input type="radio" name="rdsexo">Masculino</label>
+          <label> <input type="radio" name="rdsexo">Feminino</label>
+        </div>
+        <div>
+          <textarea placeholder="Observação:" name="" id=""></textarea>
+        </div>
+
+        <input type="hidden" name="" value="123456">
+
+        <div>
+          <input type="checkbox" name="" id="">
+          <label>Você aceita os termos</label>
+        </div>
+
+        <div>
+          <label>Selecione um arquivo</label>
+          <input type="file" name="" id="">
+        </div>
+      </fieldset>
+
+      <fieldset>
+          <legend>Ações</legend>
+            <div>
+              <input type="submit" value="Enviar" class="button">
+              <input type="reset" value="Limpar" class="button">
+            </div>
+      </fieldset >
+    </form>
+  </body>
+</html>
